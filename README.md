@@ -41,9 +41,10 @@ $ uptime
 | CONTAINER ID | NAME | COMMAND | STATUS |
 |:--|:--|:--|:--|
 | `7f3a9c1` | **truthchain** | `"ai multimodal content verification · aws cdk"` | 🟢 `up` |
+| `2c7d5a0` | **[ascii-cam](https://github.com/candedefranco/ascii-cam)** | `"live webcam as ascii art in the terminal · c"` | ⚪ `exited (0)` |
 | `b21d04f` | **[wherethefit](https://github.com/candedefranco/WhereTheFit)** | `"find where to buy any outfit · flask · postgres · s3"` | ⚪ `exited (0)` |
 | `c9e5f7b` | **smarttrack** | `"iot analytics · rekognition · vpc · ec2"` | ⚪ `exited (0)` |
-| `4ad8e21` | **palm-blast** | `"hand-tracked energy fx · mediapipe · canvas"` | ⚪ `exited (0)` |
+| `4ad8e21` | **[palm-blast](https://candedefranco.github.io/palm-blast/)** | `"hand-tracked energy fx · mediapipe · canvas"` | ⚪ `exited (0)` |
 | `e06b3d9` | **movieweb** | `"imdb-style full-text search · postgres + mongo"` | ⚪ `exited (0)` |
 | `91cf6a2` | **chess-engine** | `"chess & checkers rules engine · java · kotlin"` | ⚪ `exited (0)` |
 
