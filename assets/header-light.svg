@@ -1,97 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320" role="img" aria-label="Candela De Franco — Software Engineer">
-  <defs>
-    <pattern id="minor" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="rgba(21,101,192,0.07)" stroke-width="1"/></pattern>
-    <pattern id="major" width="100" height="100" patternUnits="userSpaceOnUse"><rect width="100" height="100" fill="url(#minor)"/><path d="M100 0H0V100" fill="none" stroke="rgba(21,101,192,0.15)" stroke-width="1"/></pattern>
-    <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 1L10 5L0 9" fill="none" stroke="#1565c0" stroke-width="1.5"/></marker>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 429.79999999999995" width="1000" height="429.79999999999995" role="img" aria-label="candela@austral — neofetch: Candela De Franco, Software Engineer">
   <style>
-    text { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    .zone { font-size: 8px; fill: #5a7190; text-anchor: middle; }
-    .thin { stroke: #5a7190; stroke-width: 1; }
-    .frame { fill: none; stroke: #0d2240; stroke-opacity: 0.55; }
-    .kicker { font-size: 15px; fill: #1565c0; letter-spacing: 3px; }
-    .name { font-size: 54px; font-weight: 700; fill: #0d2240; }
-    .sub { font-size: 15px; fill: #5a7190; letter-spacing: 1.5px; }
-    .dim { stroke: #1565c0; stroke-width: 1; }
-    .dimtext { font-size: 11px; fill: #1565c0; letter-spacing: 1px; }
-    .tiny { font-size: 9px; fill: #5a7190; letter-spacing: 1px; }
-    .edge { fill: none; stroke: #1565c0; stroke-width: 1.5; stroke-linejoin: round; }
-    .hidden { fill: none; stroke: #1565c0; stroke-width: 1; stroke-dasharray: 4 3; opacity: 0.6; }
-    .trace { fill: none; stroke: #1565c0; stroke-opacity: 0.35; stroke-width: 1.5; }
-    .flow { fill: none; stroke: #1565c0; stroke-width: 1.5; stroke-dasharray: 4 8; }
-    .pulse { fill: #0d2240; }
-    .node { fill: #f5f8fc; stroke: #1565c0; stroke-width: 1.5; }
-    .dot { fill: #1565c0; }
-    .tb { fill: #f5f8fc; stroke: #0d2240; stroke-opacity: 0.55; }
-    .tbl { stroke: #0d2240; stroke-opacity: 0.35; }
-    .label { font-size: 8px; fill: #5a7190; letter-spacing: 1px; }
-    .value { font-size: 12.5px; fill: #0d2240; font-weight: 700; }
+    .t { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 15px; }
+    .r { animation: show 0s linear both; }
+    .k { animation: type 0s linear both; }
+    @keyframes show { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes type { from { fill-opacity: 0; } to { fill-opacity: 1; } }
+    .title { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; fill: #656d76; }
   </style>
+  <rect x="1" y="1" width="998" height="427.79999999999995" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+  <path d="M1 44V13a12 12 0 0 1 12-12h974a12 12 0 0 1 12 12v31z" fill="#f6f8fa"/>
+  <line x1="1" y1="44" x2="999" y2="44" stroke="#d0d7de"/>
+  <circle cx="26" cy="22" r="6.5" fill="#ff5f57"/>
+  <circle cx="48" cy="22" r="6.5" fill="#febc2e"/>
+  <circle cx="70" cy="22" r="6.5" fill="#28c840"/>
+  <text x="500" y="26" class="title" text-anchor="middle">candela@austral: ~ — zsh — 120×32</text>
 
-  <rect width="1000" height="320" fill="#f5f8fc"/>
-  <rect x="24" y="24" width="952" height="272" fill="url(#major)"/>
-  <rect x="12" y="12" width="976" height="296" class="frame"/>
-  <rect x="24" y="24" width="952" height="272" class="frame"/>
-  <text x="83.5" y="21" class="zone">1</text><text x="202.5" y="21" class="zone">2</text><line x1="143" y1="12" x2="143" y2="24" class="thin"/><text x="321.5" y="21" class="zone">3</text><line x1="262" y1="12" x2="262" y2="24" class="thin"/><text x="440.5" y="21" class="zone">4</text><line x1="381" y1="12" x2="381" y2="24" class="thin"/><text x="559.5" y="21" class="zone">5</text><line x1="500" y1="12" x2="500" y2="24" class="thin"/><text x="678.5" y="21" class="zone">6</text><line x1="619" y1="12" x2="619" y2="24" class="thin"/><text x="797.5" y="21" class="zone">7</text><line x1="738" y1="12" x2="738" y2="24" class="thin"/><text x="916.5" y="21" class="zone">8</text><line x1="857" y1="12" x2="857" y2="24" class="thin"/><text x="18" y="72.33333333333334" class="zone">A</text><text x="18" y="163" class="zone">B</text><line x1="12" y1="114.66666666666667" x2="24" y2="114.66666666666667" class="thin"/><text x="18" y="253.66666666666669" class="zone">C</text><line x1="12" y1="205.33333333333334" x2="24" y2="205.33333333333334" class="thin"/>
-
-  <!-- Registration marks -->
-  <g class="dim" opacity="0.7">
-    <path d="M44 44h16M52 36v16"/><circle cx="52" cy="44" r="5" fill="none"/>
-  </g>
-
-  <text x="60" y="92" class="kicker">// SOFTWARE ENGINEER</text>
-  <text x="60" y="148" class="name" textLength="530" lengthAdjust="spacingAndGlyphs">CANDELA DE FRANCO</text>
-  <rect x="600" y="108" width="22" height="44" fill="#1565c0">
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- Dimension line under the name -->
-  <line x1="60" y1="164" x2="60" y2="182" class="dim"/>
-  <line x1="590" y1="164" x2="590" y2="182" class="dim"/>
-  <line x1="62" y1="176" x2="588" y2="176" class="dim" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
-  <rect x="245" y="169" width="160" height="14" fill="#f5f8fc"/>
-  <text x="325" y="180" class="dimtext" text-anchor="middle">SCALE: ∞  (SEE NOTE 1)</text>
-
-  <text x="60" y="218" class="sub">CLEAN CODE · CLOUD · SYSTEMS THAT SCALE</text>
-  <text x="60" y="270" class="tiny">NOTE 1: ALL SYSTEMS DESIGNED TO SCALE HORIZONTALLY.</text>
-  <text x="60" y="284" class="tiny">SOFTWARE ENGINEERING — UNIVERSIDAD AUSTRAL — CLASS OF 2028</text>
-
-  <!-- Cloud node schematic -->
-  <polygon points="820,45 867.63,72.5 820,100 772.37,72.5" fill="#1565c0" fill-opacity="0.18" class="edge"/>
-  <polygon points="772.37,72.5 820,100 820,155 772.37,127.5" fill="#1565c0" fill-opacity="0.1" class="edge"/>
-  <polygon points="820,100 867.63,72.5 867.63,127.5 820,155" fill="#1565c0" fill-opacity="0.04" class="edge"/>
-  <path d="M772.37 127.5 L820 100 M820 45 V100" class="hidden"/>
-  
-    <path id="t0" d="M867.63 88 H900 V62 H933" class="trace"/>
-    <path d="M867.63 88 H900 V62 H933" class="flow"><animate attributeName="stroke-dashoffset" from="24" to="0" dur="1s" repeatCount="indefinite"/></path>
-    <circle r="3" class="pulse"><animateMotion dur="2.4s" repeatCount="indefinite"><mpath href="#t0"/></animateMotion></circle>
-    <circle cx="945" cy="62" r="11" class="node"/>
-    <circle cx="945" cy="62" r="3.5" class="dot"/>
-    <text x="945" y="88" class="tiny" text-anchor="middle">LAMBDA</text>
-    <path id="t1" d="M867.63 118 H900 V152 H933" class="trace"/>
-    <path d="M867.63 118 H900 V152 H933" class="flow"><animate attributeName="stroke-dashoffset" from="24" to="0" dur="1s" repeatCount="indefinite"/></path>
-    <circle r="3" class="pulse"><animateMotion dur="2.9s" repeatCount="indefinite"><mpath href="#t1"/></animateMotion></circle>
-    <circle cx="945" cy="152" r="11" class="node"/>
-    <circle cx="945" cy="152" r="3.5" class="dot"/>
-    <text x="945" y="178" class="tiny" text-anchor="middle">S3</text>
-    <path id="t2" d="M772.37 100 H733" class="trace"/>
-    <path d="M772.37 100 H733" class="flow"><animate attributeName="stroke-dashoffset" from="24" to="0" dur="1s" repeatCount="indefinite"/></path>
-    <circle r="3" class="pulse"><animateMotion dur="2.1s" repeatCount="indefinite"><mpath href="#t2"/></animateMotion></circle>
-    <circle cx="721" cy="100" r="11" class="node"/>
-    <circle cx="721" cy="100" r="3.5" class="dot"/>
-    <text x="721" y="126" class="tiny" text-anchor="middle">EC2</text>
-  <line x1="772.37" y1="167" x2="772.37" y2="185" class="dim"/>
-  <line x1="867.63" y1="167" x2="867.63" y2="185" class="dim"/>
-  <line x1="774.37" y1="179" x2="865.63" y2="179" class="dim" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
-  <text x="820" y="175" class="dimtext" text-anchor="middle">CLOUD</text>
-
-  <!-- Title block -->
-  <rect x="640" y="216" width="336" height="80" class="tb"/>
-  <path d="M640 256H976M840 216V256M760 256V296M850 256V296M910 256V296" class="tbl"/>
-  <text x="648" y="229" class="label">TITLE</text><text x="648" y="247" class="value">GITHUB PROFILE</text>
-  <text x="848" y="229" class="label">DWG NO.</text><text x="848" y="247" class="value">CDF-001</text>
-  <text x="648" y="269" class="label">DRAWN BY</text><text x="648" y="287" class="value">C. DE FRANCO</text>
-  <text x="768" y="269" class="label">SCALE</text><text x="768" y="287" class="value">1:1</text>
-  <text x="858" y="269" class="label">REV</text><text x="858" y="287" class="value">2026</text>
-  <text x="918" y="269" class="label">SHEET</text><text x="918" y="287" class="value">1/1</text>
+  <text x="36" y="78" class="t" xml:space="preserve"><tspan fill="#1a7f37" font-weight="700">candela@austral</tspan><tspan fill="#656d76">:</tspan><tspan fill="#0969da" font-weight="700">~</tspan><tspan fill="#656d76">$ </tspan><tspan fill="#1f2328" class="k" style="animation-delay:0.60s">n</tspan><tspan fill="#1f2328" class="k" style="animation-delay:0.69s">e</tspan><tspan fill="#1f2328" class="k" style="animation-delay:0.78s">o</tspan><tspan fill="#1f2328" class="k" style="animation-delay:0.87s">f</tspan><tspan fill="#1f2328" class="k" style="animation-delay:0.96s">e</tspan><tspan fill="#1f2328" class="k" style="animation-delay:1.05s">t</tspan><tspan fill="#1f2328" class="k" style="animation-delay:1.14s">c</tspan><tspan fill="#1f2328" class="k" style="animation-delay:1.23s">h</tspan></text>
+  <g class="r" style="animation-delay:1.67s"><rect x="55" y="154" width="11.4" height="22.4" fill="#0969da"/><rect x="66" y="154" width="11.4" height="22.4" fill="#0969da"/><rect x="77" y="154" width="11.4" height="22.4" fill="#0969da"/><rect x="88" y="154" width="11.4" height="22.4" fill="#0969da"/><rect x="99" y="154" width="11.4" height="22.4" fill="#0969da"/><rect x="110" y="154" width="11.4" height="22.4" fill="#0969da"/><path d="M126.5 165L121 165M126.5 165L126.5 176" stroke="#0969da" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><rect x="132" y="154" width="11.4" height="22.4" fill="#0969da"/><rect x="143" y="154" width="11.4" height="22.4" fill="#0969da"/><rect x="154" y="154" width="11.4" height="22.4" fill="#0969da"/><rect x="165" y="154" width="11.4" height="22.4" fill="#0969da"/><rect x="176" y="154" width="11.4" height="22.4" fill="#0969da"/><rect x="187" y="154" width="11.4" height="22.4" fill="#0969da"/><path d="M203.5 165L198 165M203.5 165L203.5 176" stroke="#0969da" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><rect x="220" y="154" width="11.4" height="22.4" fill="#0969da"/><rect x="231" y="154" width="11.4" height="22.4" fill="#0969da"/><rect x="242" y="154" width="11.4" height="22.4" fill="#0969da"/><rect x="253" y="154" width="11.4" height="22.4" fill="#0969da"/><rect x="264" y="154" width="11.4" height="22.4" fill="#0969da"/><rect x="275" y="154" width="11.4" height="22.4" fill="#0969da"/><rect x="286" y="154" width="11.4" height="22.4" fill="#0969da"/><path d="M302.5 165L297 165M302.5 165L302.5 176" stroke="#0969da" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><rect x="44" y="176" width="11.4" height="22.4" fill="#0969da"/><rect x="55" y="176" width="11.4" height="22.4" fill="#0969da"/><path d="M71.5 187L77 187M71.5 187L71.5 198" stroke="#0969da" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M82.5 187L77 187M82.5 187L88 187" stroke="#0969da" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M93.5 187L88 187M93.5 187L99 187" stroke="#0969da" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M104.5 187L99 187M104.5 187L110 187" stroke="#0969da" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M115.5 187L110 187M115.5 187L121 187" stroke="#0969da" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M126.5 187L121 187M126.5 187L126.5 176" stroke="#0969da" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><rect x="132" y="176" width="11.4" height="22.4" fill="#0969da"/><rect x="143" y="176" width="11.4" height="22.4" fill="#0969da"/><path d="M159.5 187L165 187M159.5 187L159.5 198" stroke="#0969da" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M170.5 187L165 187M170.5 187L176 187" stroke="#0969da" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M181.5 187L176 187M181.5 187L187 187" stroke="#0969da" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><rect x="187" y="176" width="11.4" height="22.4" fill="#0969da"/><rect x="198" y="176" width="11.4" height="22.4" fill="#0969da"/><path d="M214.5 187L209 187M214.5 187L214.5 198" stroke="#0969da" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><rect x="220" y="176" width="11.4" height="22.4" fill="#0969da"/><rect x="231" y="176" width="11.4" height="22.4" fill="#0969da"/><path d="M247.5 187L253 187M247.5 187L247.5 198" stroke="#0969da" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M258.5 187L253 187M258.5 187L264 187" stroke="#0969da" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M269.5 187L264 187M269.5 187L275 187" stroke="#0969da" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M280.5 187L275 187M280.5 187L286 187" stroke="#0969da" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M291.5 187L286 187M291.5 187L297 187" stroke="#0969da" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M302.5 187L297 187M302.5 187L302.5 176" stroke="#0969da" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><rect x="44" y="198" width="11.4" height="22.4" fill="#5a5fd6"/><rect x="55" y="198" width="11.4" height="22.4" fill="#5a5fd6"/><path d="M71.5 209L71.5 198M71.5 209L71.5 220" stroke="#5a5fd6" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><rect x="132" y="198" width="11.4" height="22.4" fill="#5a5fd6"/><rect x="143" y="198" width="11.4" height="22.4" fill="#5a5fd6"/><path d="M159.5 209L159.5 198M159.5 209L159.5 220" stroke="#5a5fd6" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><rect x="187" y="198" width="11.4" height="22.4" fill="#5a5fd6"/><rect x="198" y="198" width="11.4" height="22.4" fill="#5a5fd6"/><path d="M214.5 209L214.5 198M214.5 209L214.5 220" stroke="#5a5fd6" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><rect x="220" y="198" width="11.4" height="22.4" fill="#5a5fd6"/><rect x="231" y="198" width="11.4" height="22.4" fill="#5a5fd6"/><rect x="242" y="198" width="11.4" height="22.4" fill="#5a5fd6"/><rect x="253" y="198" width="11.4" height="22.4" fill="#5a5fd6"/><rect x="264" y="198" width="11.4" height="22.4" fill="#5a5fd6"/><path d="M280.5 209L275 209M280.5 209L280.5 220" stroke="#5a5fd6" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><rect x="44" y="220" width="11.4" height="22.4" fill="#8250df"/><rect x="55" y="220" width="11.4" height="22.4" fill="#8250df"/><path d="M71.5 231L71.5 220M71.5 231L71.5 242" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><rect x="132" y="220" width="11.4" height="22.4" fill="#8250df"/><rect x="143" y="220" width="11.4" height="22.4" fill="#8250df"/><path d="M159.5 231L159.5 220M159.5 231L159.5 242" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><rect x="187" y="220" width="11.4" height="22.4" fill="#8250df"/><rect x="198" y="220" width="11.4" height="22.4" fill="#8250df"/><path d="M214.5 231L214.5 220M214.5 231L214.5 242" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><rect x="220" y="220" width="11.4" height="22.4" fill="#8250df"/><rect x="231" y="220" width="11.4" height="22.4" fill="#8250df"/><path d="M247.5 231L253 231M247.5 231L247.5 242" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M258.5 231L253 231M258.5 231L264 231" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M269.5 231L264 231M269.5 231L275 231" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M280.5 231L275 231M280.5 231L280.5 220" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M49.5 253L55 253M49.5 253L49.5 242" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><rect x="55" y="242" width="11.4" height="22.4" fill="#8250df"/><rect x="66" y="242" width="11.4" height="22.4" fill="#8250df"/><rect x="77" y="242" width="11.4" height="22.4" fill="#8250df"/><rect x="88" y="242" width="11.4" height="22.4" fill="#8250df"/><rect x="99" y="242" width="11.4" height="22.4" fill="#8250df"/><rect x="110" y="242" width="11.4" height="22.4" fill="#8250df"/><path d="M126.5 253L121 253M126.5 253L126.5 264" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><rect x="132" y="242" width="11.4" height="22.4" fill="#8250df"/><rect x="143" y="242" width="11.4" height="22.4" fill="#8250df"/><rect x="154" y="242" width="11.4" height="22.4" fill="#8250df"/><rect x="165" y="242" width="11.4" height="22.4" fill="#8250df"/><rect x="176" y="242" width="11.4" height="22.4" fill="#8250df"/><rect x="187" y="242" width="11.4" height="22.4" fill="#8250df"/><path d="M203.5 253L209 253M203.5 253L203.5 264" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M214.5 253L209 253M214.5 253L214.5 242" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><rect x="220" y="242" width="11.4" height="22.4" fill="#8250df"/><rect x="231" y="242" width="11.4" height="22.4" fill="#8250df"/><path d="M247.5 253L247.5 242M247.5 253L247.5 264" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M60.5 275L66 275M60.5 275L60.5 264" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M71.5 275L66 275M71.5 275L77 275" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M82.5 275L77 275M82.5 275L88 275" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M93.5 275L88 275M93.5 275L99 275" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M104.5 275L99 275M104.5 275L110 275" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M115.5 275L110 275M115.5 275L121 275" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M126.5 275L121 275M126.5 275L126.5 264" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M137.5 275L143 275M137.5 275L137.5 264" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M148.5 275L143 275M148.5 275L154 275" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M159.5 275L154 275M159.5 275L165 275" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M170.5 275L165 275M170.5 275L176 275" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M181.5 275L176 275M181.5 275L187 275" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M192.5 275L187 275M192.5 275L198 275" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M203.5 275L198 275M203.5 275L203.5 264" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M225.5 275L231 275M225.5 275L225.5 264" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M236.5 275L231 275M236.5 275L242 275" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/><path d="M247.5 275L242 275M247.5 275L247.5 264" stroke="#8250df" stroke-opacity="0.55" stroke-width="2" stroke-linecap="square" fill="none"/></g>
+  <g class="r" style="animation-delay:1.67s"><text x="350" y="110" class="t" xml:space="preserve"><tspan fill="#1a7f37" font-weight="700">candela</tspan><tspan fill="#1f2328">@</tspan><tspan fill="#1a7f37" font-weight="700">austral</tspan></text></g>
+  <g class="r" style="animation-delay:1.73s"><text x="350" y="133" class="t" xml:space="preserve"><tspan fill="#656d76">───────────────</tspan></text></g>
+  <g class="r" style="animation-delay:1.79s"><text x="350" y="156" class="t" xml:space="preserve"><tspan fill="#0969da" font-weight="700">Name</tspan><tspan fill="#656d76">:</tspan><tspan fill="#1f2328">       Candela De Franco</tspan></text></g>
+  <g class="r" style="animation-delay:1.85s"><text x="350" y="179" class="t" xml:space="preserve"><tspan fill="#0969da" font-weight="700">Role</tspan><tspan fill="#656d76">:</tspan><tspan fill="#1f2328">       Software Engineer (student)</tspan></text></g>
+  <g class="r" style="animation-delay:1.91s"><text x="350" y="202" class="t" xml:space="preserve"><tspan fill="#0969da" font-weight="700">Uni</tspan><tspan fill="#656d76">:</tspan><tspan fill="#1f2328">        Universidad Austral · class of 2028</tspan></text></g>
+  <g class="r" style="animation-delay:1.97s"><text x="350" y="225" class="t" xml:space="preserve"><tspan fill="#0969da" font-weight="700">Focus</tspan><tspan fill="#656d76">:</tspan><tspan fill="#1f2328">      full stack · cloud · systems that scale</tspan></text></g>
+  <g class="r" style="animation-delay:2.03s"><text x="350" y="248" class="t" xml:space="preserve"><tspan fill="#0969da" font-weight="700">Languages</tspan><tspan fill="#656d76">:</tspan><tspan fill="#1f2328">  TypeScript, Python, Java, Kotlin</tspan></text></g>
+  <g class="r" style="animation-delay:2.09s"><text x="350" y="271" class="t" xml:space="preserve"><tspan fill="#0969da" font-weight="700">Cloud</tspan><tspan fill="#656d76">:</tspan><tspan fill="#1f2328">      AWS · Terraform · Docker</tspan></text></g>
+  <g class="r" style="animation-delay:2.15s"><text x="350" y="294" class="t" xml:space="preserve"><tspan fill="#0969da" font-weight="700">Community</tspan><tspan fill="#656d76">:</tspan><tspan fill="#1f2328">  Founder @ AWS Student Builder Group</tspan></text></g>
+  <g class="r" style="animation-delay:2.21s"><text x="350" y="317" class="t" xml:space="preserve"><tspan fill="#0969da" font-weight="700">Uptime</tspan><tspan fill="#656d76">:</tspan><tspan fill="#1f2328">     building since 2023</tspan></text></g>
+  <rect x="350" y="338.79999999999995" width="30" height="18" fill="#6e7781" class="r" style="animation-delay:2.27s"></rect><rect x="380" y="338.79999999999995" width="30" height="18" fill="#cf222e" class="r" style="animation-delay:2.27s"></rect><rect x="410" y="338.79999999999995" width="30" height="18" fill="#1a7f37" class="r" style="animation-delay:2.27s"></rect><rect x="440" y="338.79999999999995" width="30" height="18" fill="#9a6700" class="r" style="animation-delay:2.27s"></rect><rect x="470" y="338.79999999999995" width="30" height="18" fill="#0969da" class="r" style="animation-delay:2.27s"></rect><rect x="500" y="338.79999999999995" width="30" height="18" fill="#8250df" class="r" style="animation-delay:2.27s"></rect><rect x="530" y="338.79999999999995" width="30" height="18" fill="#1b7c83" class="r" style="animation-delay:2.27s"></rect><rect x="560" y="338.79999999999995" width="30" height="18" fill="#1f2328" class="r" style="animation-delay:2.27s"></rect>
+  <g class="r" style="animation-delay:2.57s"><text x="36" y="399.79999999999995" class="t" xml:space="preserve"><tspan fill="#1a7f37" font-weight="700">candela@austral</tspan><tspan fill="#656d76">:</tspan><tspan fill="#0969da" font-weight="700">~</tspan><tspan fill="#656d76">$ </tspan><tspan fill="#1f2328">▋<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/></tspan></text></g>
 </svg>
