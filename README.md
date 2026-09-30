@@ -2,61 +2,59 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" alt="Candela De Franco — Software Engineer" width="100%">
+  <img src="assets/header-light.svg" alt="candela@austral — neofetch" width="100%">
 </picture>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1400&color=2F81F7&center=true&vCenter=true&width=720&height=40&lines=%3E_+building+cloud+systems+that+scale;%3E_+founder+%40+AWS+Student+Builder+Group;%3E_+currently+shipping%3A+TruthChain;%3E_+hand-tracked+particle+FX+for+fun" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&pause=1400&color=8B7FF0&center=true&vCenter=true&width=720&height=36&lines=git+commit+-m+%22building+cloud+systems+that+scale%22;git+commit+-m+%22founder+%40+AWS+Student+Builder+Group%22;git+commit+-m+%22currently+shipping+TruthChain%22;git+commit+-m+%22hand-tracked+particle+FX%2C+for+fun%22" alt="git commit -m" />
 
-[![Portfolio](https://img.shields.io/badge/portfolio-0a1628?style=flat-square&logo=githubpages&logoColor=4fc3f7)](https://candedefranco.github.io)
-[![LinkedIn](https://img.shields.io/badge/linkedin-0a1628?style=flat-square&logo=linkedin&logoColor=4fc3f7)](https://www.linkedin.com/in/candela-de-franco/)
-[![Email](https://img.shields.io/badge/email-0a1628?style=flat-square&logo=gmail&logoColor=4fc3f7)](mailto:candedefranco@gmail.com)
+[![Portfolio](https://img.shields.io/badge/~/portfolio-0d1117?style=flat-square&logo=githubpages&logoColor=79c0ff)](https://candedefranco.github.io)
+[![LinkedIn](https://img.shields.io/badge/~/linkedin-0d1117?style=flat-square&logo=linkedin&logoColor=79c0ff)](https://www.linkedin.com/in/candela-de-franco/)
+[![Email](https://img.shields.io/badge/~/email-0d1117?style=flat-square&logo=gmail&logoColor=79c0ff)](mailto:candedefranco@gmail.com)
 
 </div>
 
-## `01 // whoami`
+## `$ cat about.md`
 
 ```bash
-$ whoami
-candela de franco — software engineering student @ universidad austral
+# candela de franco — software engineering @ universidad austral
+# full stack across frontend, backend and cloud infrastructure.
 
-$ cat about.txt
-full stack across frontend, backend and cloud infrastructure.
 founder & lead of the AWS Student Builder Group at my university:
 workshops, tech talks and hands-on sessions teaching students to build on the cloud.
 
 $ uptime
-building since 2023 · graduating late 2028
+ up since 2023 · graduating late 2028 · load average: always shipping
 ```
 
-## `02 // bill of materials`
+## `$ ls ~/stack`
 
-| SUBSYSTEM | COMPONENTS |
+| DIR | CONTENTS |
 |:--|:--|
-| **frontend** | ![React](https://img.shields.io/badge/React-0a1628?style=flat-square&logo=react&logoColor=4fc3f7) ![Next.js](https://img.shields.io/badge/Next.js-0a1628?style=flat-square&logo=nextdotjs&logoColor=4fc3f7) ![TypeScript](https://img.shields.io/badge/TypeScript-0a1628?style=flat-square&logo=typescript&logoColor=4fc3f7) ![Tailwind](https://img.shields.io/badge/Tailwind-0a1628?style=flat-square&logo=tailwindcss&logoColor=4fc3f7) ![Figma](https://img.shields.io/badge/Figma-0a1628?style=flat-square&logo=figma&logoColor=4fc3f7) |
-| **backend** | ![Python](https://img.shields.io/badge/Python-0a1628?style=flat-square&logo=python&logoColor=4fc3f7) ![Java](https://img.shields.io/badge/Java-0a1628?style=flat-square&logo=openjdk&logoColor=4fc3f7) ![Kotlin](https://img.shields.io/badge/Kotlin-0a1628?style=flat-square&logo=kotlin&logoColor=4fc3f7) ![Node.js](https://img.shields.io/badge/Node.js-0a1628?style=flat-square&logo=nodedotjs&logoColor=4fc3f7) ![NestJS](https://img.shields.io/badge/NestJS-0a1628?style=flat-square&logo=nestjs&logoColor=4fc3f7) ![Flask](https://img.shields.io/badge/Flask-0a1628?style=flat-square&logo=flask&logoColor=4fc3f7) ![FastAPI](https://img.shields.io/badge/FastAPI-0a1628?style=flat-square&logo=fastapi&logoColor=4fc3f7) |
-| **data** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0a1628?style=flat-square&logo=postgresql&logoColor=4fc3f7) ![MongoDB](https://img.shields.io/badge/MongoDB-0a1628?style=flat-square&logo=mongodb&logoColor=4fc3f7) ![DynamoDB](https://img.shields.io/badge/DynamoDB-0a1628?style=flat-square&logo=amazondynamodb&logoColor=4fc3f7) ![Prisma](https://img.shields.io/badge/Prisma-0a1628?style=flat-square&logo=prisma&logoColor=4fc3f7) |
-| **infrastructure** | ![AWS](https://img.shields.io/badge/AWS-0a1628?style=flat-square&logo=amazonwebservices&logoColor=4fc3f7) ![Terraform](https://img.shields.io/badge/Terraform-0a1628?style=flat-square&logo=terraform&logoColor=4fc3f7) ![Docker](https://img.shields.io/badge/Docker-0a1628?style=flat-square&logo=docker&logoColor=4fc3f7) ![Linux](https://img.shields.io/badge/Linux-0a1628?style=flat-square&logo=linux&logoColor=4fc3f7) ![GitHub Actions](https://img.shields.io/badge/CI%2FCD-0a1628?style=flat-square&logo=githubactions&logoColor=4fc3f7) |
-| **aws services** | `EC2` `S3` `RDS` `Lambda` `API Gateway` `DynamoDB` `VPC` `IAM` `CDK` `CloudFormation` `CloudWatch` `Rekognition` |
-| **ai & tools** | ![AI Agents](https://img.shields.io/badge/AI_Agents-0a1628?style=flat-square&logo=anthropic&logoColor=4fc3f7) ![MediaPipe](https://img.shields.io/badge/MediaPipe-0a1628?style=flat-square&logo=google&logoColor=4fc3f7) ![Git](https://img.shields.io/badge/Git-0a1628?style=flat-square&logo=git&logoColor=4fc3f7) |
+| `frontend/` | ![React](https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=79c0ff) ![Next.js](https://img.shields.io/badge/Next.js-0d1117?style=flat-square&logo=nextdotjs&logoColor=79c0ff) ![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=79c0ff) ![Tailwind](https://img.shields.io/badge/Tailwind-0d1117?style=flat-square&logo=tailwindcss&logoColor=79c0ff) ![Figma](https://img.shields.io/badge/Figma-0d1117?style=flat-square&logo=figma&logoColor=79c0ff) |
+| `backend/` | ![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=a5b4fc) ![Java](https://img.shields.io/badge/Java-0d1117?style=flat-square&logo=openjdk&logoColor=a5b4fc) ![Kotlin](https://img.shields.io/badge/Kotlin-0d1117?style=flat-square&logo=kotlin&logoColor=a5b4fc) ![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=flat-square&logo=nodedotjs&logoColor=a5b4fc) ![NestJS](https://img.shields.io/badge/NestJS-0d1117?style=flat-square&logo=nestjs&logoColor=a5b4fc) ![Flask](https://img.shields.io/badge/Flask-0d1117?style=flat-square&logo=flask&logoColor=a5b4fc) ![FastAPI](https://img.shields.io/badge/FastAPI-0d1117?style=flat-square&logo=fastapi&logoColor=a5b4fc) |
+| `data/` | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=d2a8ff) ![MongoDB](https://img.shields.io/badge/MongoDB-0d1117?style=flat-square&logo=mongodb&logoColor=d2a8ff) ![DynamoDB](https://img.shields.io/badge/DynamoDB-0d1117?style=flat-square&logo=amazondynamodb&logoColor=d2a8ff) ![Prisma](https://img.shields.io/badge/Prisma-0d1117?style=flat-square&logo=prisma&logoColor=d2a8ff) |
+| `infra/` | ![AWS](https://img.shields.io/badge/AWS-0d1117?style=flat-square&logo=amazonwebservices&logoColor=7ee787) ![Terraform](https://img.shields.io/badge/Terraform-0d1117?style=flat-square&logo=terraform&logoColor=7ee787) ![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=7ee787) ![Linux](https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=7ee787) ![GitHub Actions](https://img.shields.io/badge/CI%2FCD-0d1117?style=flat-square&logo=githubactions&logoColor=7ee787) |
+| `infra/aws/` | `EC2` `S3` `RDS` `Lambda` `API Gateway` `DynamoDB` `VPC` `IAM` `CDK` `CloudFormation` `CloudWatch` `Rekognition` |
+| `tools/` | ![AI Agents](https://img.shields.io/badge/AI_Agents-0d1117?style=flat-square&logo=anthropic&logoColor=ffa657) ![MediaPipe](https://img.shields.io/badge/MediaPipe-0d1117?style=flat-square&logo=google&logoColor=ffa657) ![Git](https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=ffa657) |
 
-## `03 // builds`
+## `$ docker ps -a`
 
-| REF | PROJECT | SPEC | STATUS |
+| CONTAINER ID | NAME | COMMAND | STATUS |
 |:--|:--|:--|:--|
-| `P01` | **TruthChain** | Real-time multimodal content verification with AI. All infra as code with AWS CDK. | `WIP` |
-| `P02` | **[WhereTheFit](https://github.com/candedefranco/WhereTheFit)** | Fashion social platform: post an outfit, the community finds where to buy each piece. Flask · PostgreSQL · S3 · RDS | `DONE` |
-| `P03` | **SmartTrack** | IoT analytics platform. Facial recognition with Rekognition, networking with VPC, compute on EC2. | `DONE` |
-| `P04` | **Palm Blast** | Real-time hand-tracked energy FX in the browser. MediaPipe · Canvas particles. | `DONE` |
-| `P05` | **MovieWeb** | IMDB-style app with full-text search and a dual PostgreSQL + MongoDB architecture. Node.js · Docker | `DONE` |
-| `P06` | **Chess & Checkers** | Full rule validation, turn logic and move generation. Java · Kotlin · design patterns | `DONE` |
+| `7f3a9c1` | **truthchain** | `"ai multimodal content verification · aws cdk"` | 🟢 `up` |
+| `b21d04f` | **[wherethefit](https://github.com/candedefranco/WhereTheFit)** | `"find where to buy any outfit · flask · postgres · s3"` | ⚪ `exited (0)` |
+| `c9e5f7b` | **smarttrack** | `"iot analytics · rekognition · vpc · ec2"` | ⚪ `exited (0)` |
+| `4ad8e21` | **palm-blast** | `"hand-tracked energy fx · mediapipe · canvas"` | ⚪ `exited (0)` |
+| `e06b3d9` | **movieweb** | `"imdb-style full-text search · postgres + mongo"` | ⚪ `exited (0)` |
+| `91cf6a2` | **chess-engine** | `"chess & checkers rules engine · java · kotlin"` | ⚪ `exited (0)` |
 
-## `04 // telemetry`
+## `$ git log --graph`
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/candedefranco/candedefranco/output/telemetry-dark.svg">
-  <img src="https://raw.githubusercontent.com/candedefranco/candedefranco/output/telemetry-light.svg" alt="Contribution telemetry" width="100%">
+  <img src="https://raw.githubusercontent.com/candedefranco/candedefranco/output/telemetry-light.svg" alt="Contribution graph" width="100%">
 </picture>
 
 <picture>
@@ -66,21 +64,22 @@ building since 2023 · graduating late 2028
 
 </div>
 
-## `05 // community.log`
+## `$ tail -f community.log`
 
 ```log
-[FOUNDER]  AWS Student Builder Group — Universidad Austral
-           workshops · tech talks · hands-on cloud sessions
-[MENTOR]   onboarding students starting out in cloud
-[CERT]     AWS Certified Cloud Practitioner — in preparation
+[INFO]  founder & lead · AWS Student Builder Group — Universidad Austral
+[INFO]  running workshops, tech talks and hands-on cloud sessions
+[INFO]  mentoring students starting out in cloud
+[WARN]  AWS Certified Cloud Practitioner — exam in preparation...
 ```
 
 <div align="center">
 
-```
-──────────────────────────  END OF SHEET 1/1  ──────────────────────────
+```text
+$ exit
+logout — thanks for stopping by ✦
 ```
 
-<img src="https://komarev.com/ghpvc/?username=candedefranco&label=VIEWS&color=0a1628&style=flat-square" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=candedefranco&label=%24+visitors&color=8b7ff0&style=flat-square" alt="Profile views" />
 
 </div>
